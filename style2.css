@@ -1,9 +1,10 @@
 @media only screen and (min-width:920px) {
-    body {
+body {
     margin: 0;
     padding: 0;
     background: linear-gradient(90deg, rgba(255, 213, 223, 1) 0, rgba(255, 159, 136, 1) 35%, rgba(255, 246, 175, 1) 100%);
 }
+
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -101,6 +102,10 @@ a:hover {
     text-align: justify;
 }
 
+.cart-button {
+    max-width: 150px;
+}
+
 .back-link {
     font-family: VT323, monospace;
     font-size: 1.5rem;
@@ -116,6 +121,7 @@ body {
     padding: 0;
     background: linear-gradient(90deg, rgba(255, 213, 223, 1) 0, rgba(255, 159, 136, 1) 35%, rgba(255, 246, 175, 1) 100%);
 }
+
 .container {
     display: grid;
     grid-template-columns: 30px 1fr 30px;
@@ -186,7 +192,7 @@ a:hover {
 }
 
 .thumbnail {
-    width: 350px;
+    width: 275px;
     display: block;
 }
 
@@ -213,7 +219,7 @@ a:hover {
 
 .gallery-pic {
     padding-bottom: 20px;
-    width: 350px;
+    width: 275px;
 }
 
 .desc {
