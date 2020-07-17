@@ -103,7 +103,15 @@ a:hover {
 }
 
 .cart-button {
-    max-width: 150px;
+    max-width: 175px;
+    padding-top: 30px;
+    padding-left: 70%;
+}
+
+.buy-button {
+    max-width: 175px;
+    padding-top: 15px;
+    padding-left: 70%;
 }
 
 .back-link {
@@ -236,6 +244,18 @@ a:hover {
     font-family: VT323, monospace;
     font-size: 1.3rem;
     color: #3567ff;
+}
+
+.cart-button {
+    max-width: 175px;
+    padding-top: 30px;
+    padding-left: 50%;
+}
+
+.buy-button {
+    max-width: 175px;
+    padding-top: 15px;
+    padding-left: 50%;
 }
 
 }
