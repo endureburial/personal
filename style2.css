@@ -2,7 +2,8 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(90deg, rgba(255, 213, 223, 1) 0, rgba(255, 159, 136, 1) 35%, rgba(255, 246, 175, 1) 100%);
+    background-image: url("images/hanimex-old-st-01.jpg");
+    background-size: cover;
 }
 
 .container {
@@ -19,6 +20,7 @@ body {
     grid-column-start: 1;
     justify-self: start;
     padding-left: 75px;
+    padding-top: 30px;
 }
 
 .orange {
@@ -36,18 +38,21 @@ body {
 .shop-name {
     font-family: 'DM Mono', monospace;
     font-size: 1.8rem;
+    color: yellow;
 }
 
 p {
     display: inline;
     font-family: VT323, monospace;
     font-size: 1.5rem;
+    color: yellow;
 }
 
 b {
     display: inline;
     font-family: VT323, monospace;
     font-size: 1.8rem;
+    color: #ff6544;
 }
 
 a {
