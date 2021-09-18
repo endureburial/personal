@@ -4,7 +4,6 @@
         margin: 0;
         padding: 0;
         background: white;
-        overflow: hidden;
     }
     
     .container {
@@ -20,9 +19,9 @@
     }
     
     .orange {
-        max-width: 80px;
+        max-width: 100px;
         height: auto;
-        padding: 40px;
+        padding: 30px;
     }
     
     .header {
@@ -126,6 +125,51 @@
 
     .desc2 {
         grid-row-start: 5;
+        padding-bottom: 20px;
+    }
+
+    .film3 {
+        grid-row-start: 6;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .desc3 {
+        grid-row-start: 7;
+        padding-bottom: 20px;
+    }
+
+    .film4 {
+        grid-row-start: 8;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .desc4 {
+        grid-row-start: 9;
+        padding-bottom: 20px;
+    }
+
+    .film5 {
+        grid-row-start: 10;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .desc5 {
+        grid-row-start: 11;
+        padding-bottom: 20px;
+    }
+
+    .film6 {
+        grid-row-start: 12;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .desc6 {
+        grid-row-start: 13;
+        padding-bottom: 20px;
     }
 
 }
@@ -257,6 +301,58 @@
     .desc2 {
         padding-top: 30px;
         grid-row-start: 5;
+    }
+
+    .film3 {
+        grid-row-start: 6;
+        justify-self: center;
+        align-self: center;
+        width: 90%;
+        height: 42%;
+    }
+
+    .desc3 {
+        padding-top: 30px;
+        grid-row-start: 7;
+    }
+
+    .film4 {
+        grid-row-start: 8;
+        justify-self: center;
+        align-self: center;
+        width: 90%;
+        height: 42%;
+    }
+
+    .desc4 {
+        padding-top: 30px;
+        grid-row-start: 9;
+    }
+
+    .film5 {
+        grid-row-start: 10;
+        justify-self: center;
+        align-self: center;
+        width: 90%;
+        height: 42%;
+    }
+
+    .desc5 {
+        padding-top: 30px;
+        grid-row-start: 11;
+    }
+
+    .film6 {
+        grid-row-start: 12;
+        justify-self: center;
+        align-self: center;
+        width: 90%;
+        height: 42%;
+    }
+
+    .desc6 {
+        padding-top: 30px;
+        grid-row-start: 13;
     }
 
     .footer {
