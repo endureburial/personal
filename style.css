@@ -17,7 +17,7 @@
 .container {
     display: grid;
     grid-template-columns: 20px 2fr 1fr 1fr 1fr 20px;
-    grid-template-rows: 30px 1fr 1fr 1fr 1fr 1fr 30px;
+    grid-template-rows: 100px 1fr 1fr 1fr 100px;
     justify-items: center;
     align-items: center;
     width: 100vw;
@@ -42,29 +42,17 @@
     grid-column: 3;
     grid-row: 2;
 }
-#cursor {
-    max-width: 30px;
-    height: auto;
-    grid-column: 3;
-    grid-row: 3;
-}
 #doc {
     max-width: 35px;
     height: auto;
     grid-column: 3;
-    grid-row: 4;
-}
-#camera {
-    max-width: 60px;
-    height: auto;
-    grid-column: 3;
-    grid-row: 5;
+    grid-row: 3;
 }
 #contact {
     max-width: 60px;
     height: auto;
     grid-column: 3;
-    grid-row: 6;
+    grid-row: 4;
 }
 p {
     display: inline;
@@ -90,21 +78,9 @@ a:hover {
     text-align: center;
     display: none;
 }
-#cursor-text {
-    grid-column: 4;
-    grid-row: 3;
-    text-align: center;
-    display: none;
-}
 #doc-text {
     grid-column: 4;
     grid-row: 4;
-    text-align: center;
-    display: none;
-}
-#camera-text {
-    grid-column: 4;
-    grid-row: 5;
     text-align: center;
     display: none;
 }
